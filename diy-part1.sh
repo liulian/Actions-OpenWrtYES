@@ -16,4 +16,4 @@
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i 's/\#src-git helloworld/\src-git helloworld/g' ./feeds.conf.default
-sed -i 's/R20.9.15/R20.9.15_dev_Lenyu/'  package/lean/default-settings/files/zzz-default-settings
+sed -i 's/R20.10.20/R20.10.20_dev_Lenyu/'  package/lean/default-settings/files/zzz-default-settings
