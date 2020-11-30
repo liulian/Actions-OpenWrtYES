@@ -17,3 +17,4 @@
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 sed -i 's/\#src-git helloworld/\src-git helloworld/g' ./feeds.conf.default
 sed -i 's/R20.10.20/R20.10.20_dev_Lenyu/'  package/lean/default-settings/files/zzz-default-settings
+
